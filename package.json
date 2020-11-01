@@ -1,0 +1,26 @@
+{
+  "name": "rettus_lab4",
+  "version": "1.0.0",
+  "description": "homework",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha2",
+    "favicon": "0.0.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rettus-code/Lab4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rettus-code/Lab4/issues"
+  },
+  "homepage": "https://github.com/rettus-code/Lab4#readme"
+}

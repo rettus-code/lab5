@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "css/main.css">
+    <title>Rooms | Bellingham Hotel</title>
+</head>
+<body>
+    <header>
+        <div class="container header-grid">
+            <div class="logo">Bellingham Hotel</div>
+            <nav>
+                <label class="label" for="toggle"><i class="fas fa-bars"></i></label>
+                <input type="checkbox" id="toggle">
+                <ul class="menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./room.html">Rooms</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="heroimage">
+        <div class="heroitems">
+            <div class="container">
+                <h1>Our Rooms</h1>
+                <p>Discover World’s #1 Five Star Hotel.</p>
+                <a href="#" class="button" data-toggle="modal" data-target="#RoomForm">Book Now</a>
+            </div>
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <main>
+        <section class = "main-padding" class = "bg-color">
+            <div class="container main-grid">
+                <div class="rooms">
+                    <div class="rooms-pic-1">
+                        <figure><img class = "img" src = "images/img_3.jpg"></figure><div class="rooms-body">
+                            <h3 class = "rooms-heading">Luxury Executive Lounge</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, odio.</p>
+                            <p><a href="#" class="button" data-toggle="modal" data-target="#RoomForm">Book Now</a></p>
+                        </div>
+                    </div>
+                    <div class="rooms-pic-1">
+                        <figure><img class = "img" src = "images/img_1.jpg"></figure><div class="rooms-body">
+                            <h3 class = "rooms-heading">Exquisite Presidential Suite</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, odio.</p>
+                            <p><a href="#" class="button" data-toggle="modal" data-target="#RoomForm">Book Now</a></p>
+                        </div>
+                    </div>
+                    <div class="rooms-pic-1">
+                        <figure><img class = "img" src = "images/img_5.jpg"></figure><div class="rooms-body">
+                            <h3 class = "rooms-heading">Executive Club rooms Suite</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, odio.</p>
+                            <p><a href="#" class="button" data-toggle="modal" data-target="#RoomForm">Book Now</a></p>
+                        </div>
+                    </div>
+                    <div class="rooms-pic-1">
+                        <figure><img class = "img" src = "images/img_11.jpg"></figure><div class="rooms-body">
+                            <h3 class = "rooms-heading">Mini Suite</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, odio.</p>
+                            <p><a href="#" class="button" data-toggle="modal" data-target="#RoomForm">Book Now</a></p>
+                        </div>
+                    </div>
+                    <div class="rooms-pic-1">
+                        <figure><img class = "img" src = "images/img_12.jpg"></figure><div class="rooms-body">
+                            <h3 class = "rooms-heading">Murphy Room</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, odio.</p>
+                            <p><a href="#" class="button" data-toggle="modal" data-target="#RoomForm">Book Now</a></p>
+                        </div>
+                    </div>
+                    <div class="rooms-pic-1">
+                        <figure><img class = "img" src = "images/img_14.jpg"></figure><div class="rooms-body">
+                            <h3 class = "rooms-heading">Deluxe Suite</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, odio.</p>
+                            <p><a href="#" class="button" data-toggle="modal" data-target="#RoomForm">Book Now</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="clearfix"></div>
+        <section class = "newsletter">
+            <div class="container newsletter-grid">
+                <h1>Subscribe to Our Newsletter</h1>
+                <form>
+                    <input type = "email" placeholder="Enter Email...">
+                    <button type = "submit" class = "button">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class ="main-footer">
+        <div class="container footer-grid">
+            <div class="footer">
+                <h4 class="sub-heading">CONNECT WITH US</h4>
+                <p>24/7 Call us<a href ="#"> + 1360 650 9933</a></p>
+            </div>
+            <div class="footer">
+                <h4 class="sub-heading">CONNECT WITH US</h4>
+                <p>We are socialized. Follow us.</p>
+            </div>
+            <div class="footer">
+                <h4 class="sub-heading">CONNECT WITH US</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, odio</p>
+            </div>
+        </div>
+        <div class="copyright"><i class="far fa-copyright"></i>Copyright 2020 All rights reserved | Michael Rettus</div>
+        <script> var date = document.lastModified; document.write(date); </script> 
+    </footer>
+    <div id ="RoomForm" class="modal fade">
+    <div class="modal-dialog" role   ="document"> 
+    <div class="modal-content"> 
+    <div class="modal-header">
+        <h1 class="modal-title">Reservation Form</h1> 
+    </div> 
+        <div class="modal-body"> 
+    <form role="form" method="POST" action="booknow.html" autocomplete><!--  new   --> 
+        <input type="hidden" name="_token" value="" > 
+        <div class="row my-1" > 
+            <div class="form-group col-md -6 my-1"> 
+                <label class="form-label">Arrival Date</label> 
+                <input type="date" class="form-control" id="bookDate" name="date"> 
+            </div> 
+            <div class="form-group col-md -6" >   
+                <label class="form-label">Departure Date</label>
+                <input type   ="date" class="form-control" id ="bookDated" name   ="date"> 
+            </div> 
+        </div> 
+        <div class="row"> 
+            <div class="form-group col-md -6 my-1"> 
+                <label class="form-label">Room </label> 
+                <select id ="room" class="form-control"> 
+                    <option selected>1 Room</option> 
+                    <option>2 Room</option> 
+                    <option>3 Room</option> 
+                    <option>4 Room</option> 
+                    <option>5 Room</option> 
+                </select> 
+            </div> 
+            <div   class="form-group col-md -6" > 
+                <label class="form-label">Guests</label> 
+                    <select value=""  id ="guest" class="form-control"> 
+                        <option selected>1 Guest</option> 
+                        <option>2 Guests</option> 
+                        <option>3 Guests</option> 
+                        <option>4 Guests</option> 
+                        <option>5+ Guests</option> 
+                    </select> 
+                </div> 
+            </div> 
+            <div class="form-group my-1"> 
+                <label class="form-label">Email</label> 
+                <div> 
+        
+            <input type="email" class="form-control" id ="bookEmail" name="email" value=""> 
+                </div> 
+            </div> 
+
+            <div class="form-group"> 
+                <label class="form-label" for="message">Write a Note</label>      
+        <textarea class="form-control" id="bookMessage" name="message" rows="3" cols="6"></textarea> 
+            </div> 
+
+            <div class="form-group"> 
+                <div class="my  -4"> 
+                    <button type="submit" class="btn button">RESERVE NOW</button> 
+                </div> 
+            </div>
+        </form> 
+    </div> 
+    </div> 
+    </div> 
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>   
+</body>
+</html>
