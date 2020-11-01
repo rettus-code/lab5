@@ -1,11 +1,11 @@
 const form1 = document.querySelector('.feedback')
 
-form.addEventListener('submit', e => {
+form1.addEventListener('submit', e => {
     e.preventDefault();
 
     const sub = form1.subscribe.value;
     if (sub == '') {
-        alert("Enter a Valid Namw!");
+        alert("Enter a Valid Name!");
         form1.subscribe.style.border = "1px solid crimson";
         return false;
     }

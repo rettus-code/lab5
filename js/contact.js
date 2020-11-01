@@ -15,12 +15,12 @@ form.addEventListener('submit', e => {
     }
     if (phone == '') {
         alert("Enter a Valid Phone Number!");
-        form.name.style.borderColor = "red";
+        form.phone.style.borderColor = "red";
         return false;
     }
     if (email == '') {
         alert("Enter a Valid Email Address!");
-        form.name.style.borderColor = "red";
+        form.email.style.borderColor = "red";
         return false;
     }
     form.submit();
