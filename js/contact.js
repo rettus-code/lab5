@@ -1,8 +1,8 @@
 const form = document.querySelector('.contactform')
 
 
-form.addEventListener('submit', e => {
-    e.preventDefault();
+form.addEventListener('submit', () => {
+    //.preventDefault();
 
     const name = form.name.value;
     const phone = form.phone.value;
